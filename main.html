@@ -1,0 +1,10 @@
+<head>
+    <title>Upload images to server using Node JS</title>
+</head>
+<body>
+  <form method="post" enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
+  <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
+  <input type="file" name="filename" />
+  <input type="submit" value="Upload" name="Upload" />
+</form>
+</body>
